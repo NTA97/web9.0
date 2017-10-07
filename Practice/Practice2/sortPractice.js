@@ -10,6 +10,7 @@ function sort(input) {
       }
     }
   }
+  return input;
   //return input.sort((a,b) => a-b); // Remove this line and change to your own algor
 }
 module.exports = sort
