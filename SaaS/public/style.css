@@ -1,0 +1,31 @@
+/*selector*/
+h1,
+section {
+  /*property*/
+  color: red;
+}
+#nta{
+  background: #ff00ff;
+}
+.nta1{
+  background:rgb(0,255,0);
+}
+.nta2{
+  background: rgb(0,0,0,0.2);
+}
+
+[type="text"]{
+  border: 1px solid blue;
+}
+
+li:hover{
+  text-shadow: 1px 1px blue;
+}
+
+a:active{
+  font-weight: bold;
+}
+
+input:focus{
+  border-radius: 6px;
+}
