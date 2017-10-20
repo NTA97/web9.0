@@ -1,0 +1,171 @@
+.main3 {
+  background: Gray;
+  color: Tomato;
+  font-weight: bold;
+}
+
+.main3 span {
+  display: inline-block;
+  width: 100px;
+  line-height: 50px;
+  border-left: 1px solid #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contai {
+  float: right;
+  padding: 4px;
+}
+
+.icon-bar{
+    width: 39px;
+    height: 3px;
+    background-color: black;
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+select,
+h1{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 90px;
+}
+
+/*.bu1{
+  padding-right: 200px;
+}
+.bu2{
+  padding-left: : 200px;
+}*/
+.bu1 button {
+  display: block;
+  background: red;
+  color: white;
+  width: 200px;
+  height: 50px;
+
+}
+
+.bu11 button {
+  display: block;
+  background: red;
+  color: white;
+  width: 200px;
+  height: 50px;
+
+}
+
+.bu12 button {
+  display: block;
+  background: red;
+  color: white;
+  width: 200px;
+  height: 50px;
+
+}
+
+.bu2 button {
+  display: block;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 50px;
+
+}
+
+.bu21 button {
+  display: block;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 50px;
+
+}
+
+.bu22 button {
+  display: block;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 50px;
+
+}
+
+.bu3 button {
+  background: white;
+  display: block;
+  width: 110px;
+  height: 35px;
+
+}
+
+.bu31 button {
+  background: white;
+  display: block;
+  width: 110px;
+  height: 35px;
+
+}
+
+.bu4 button {
+  background: white;
+  display: block;
+  width: 110px;
+  height: 35px;
+
+}
+
+.bu41 button {
+  background: white;
+  display: block;
+  width: 110px;
+  height: 35px;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .bu11 , .bu21{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bu1 , .bu2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .bu12 , .bu22{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bu11 , .bu21{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px ) {
+  .icon-bar{
+    display: none;
+  }
+  .main5 {
+    width: auto;
+  }
+  .bu31 , .bu41 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  a{
+    display: none;
+  }
+  .bu3 , .bu4 {
+    display: none;
+  }
+}

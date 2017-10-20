@@ -1,0 +1,33 @@
+.pd_home span {
+  line-height: normal;
+  padding-left: 20px;
+}
+
+
+input[type=submit] {
+  background: blue;
+  color: white;
+}
+
+.pd_home {
+  padding-left: 20px;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    width: 710px;
+    height: 140px;
+}
+
+@media screen and (max-width:1024px) {
+  .pd_home{
+    padding: 0 20px;
+    line-height: 100%;
+    width: 100%;
+    height: auto;
+  }
+  input[type=text]{
+    width:100%;
+  }
+
+}
