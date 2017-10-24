@@ -6,64 +6,21 @@
     <!-- man hinh rong bao nhieu de như vậy và không room to or nhỏ -->
     <meta name="viewport" content="width:device-width;initial-scale:1">
     <title>hello htmk</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
 
   </head>
   <body>
-    <h1>Heading level 1</h1>
-    <h2>heading level 2</h2>
-    <h6>Heading level 2</h6>
-    <p>Paragraph</p>
-    <!-- href = hyper reference -->
-    <a href="http://example.com"target="_blank">Example.com</a>
-    <img src="https://pbs.twimg.com/profile_images/833612468467294208/OPpNdEk-.jpg">
-    <a href="/menu"target="_blank">menu</a>
-    <!-- unordered list -->
-    <ul>
-      <!-- không liên quan đến thứ tự -->
-      <li class="nta1 nta2">List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-    </ul>
-
-    <ol>
-      <!-- liên quan đến thứ tự -->
-      <li id ="nta">List item 1</li>
-      <li class="nta1">List item 2</li>
-      <li>List item 3</li>
-    </ol>
-
-    <form action="/login" method="post">
-      <input type="text" placeholder="Enter username" name="username">
-      <input type="password" placeholder="Enter password" name="password">
-      <input type="email" placeholder="Enter email" name="email">
-
-      Gender:
-      <input type="radio"name="gender" name="0"> Male
-      <input type="radio" name="gender" name="1"> Female
-      <input type="radio" name="gender" name="2"> It's complicated
-
-      <input type="checkbox" name="spam" value="1"> Receive spammy email
-      <input type="file" name="avatar">
-      <input type="submit" value="Login">
-
-
-
-    </form>
-    <p>aaaa</p>
-
-    <b>Bold</b>
-    <strong>Strong</strong>
-
-    <i>Italic</i>
-    <em>Emphasize</em>
-
-    <div>Division</div>
-    <section>Section</section>
-  </article>Article</article>
-  <nav>Navigation</nav>
-  <aside>Aside</aside>
-  <header>Header</header>
-  <footer>Footer</footer>
+    <nav class="menu">
+      <span><a href="/">Item 1</a></span>
+      <span><a href="/about">Item 2</a></span>
+      <span><a href="/ask">Item 3</a></span>
+      <span><a href="/question1">Item 4</a></span>
+    </nav>
+    <nav class="menu menu_vertical">
+      <span>Item 1</span>
+      <span>Item 2</span>
+      <span>Item 3</span>
+      <span>Item 4</span>
+    </nav>
   </body>
 </html>
