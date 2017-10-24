@@ -1,0 +1,19 @@
+.container {
+  padding-top: 15px;
+}
+
+
+.fa-camera ,.fa-bars {
+  color: white;
+  display: inline-block;
+}
+
+.card-img-top {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+  body{
+    width: 50%
+  }
+}
